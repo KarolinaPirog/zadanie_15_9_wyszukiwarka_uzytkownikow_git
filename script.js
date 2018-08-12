@@ -1,8 +1,3 @@
-ReactDOM.render(
-    <App/>,
-    document.getElementById('root')
-  );
-
   class App extends React.Component {
     constructor() {
       super();
@@ -65,3 +60,8 @@ class User extends React.Component {
     );
   }
 }
+
+ReactDOM.render(
+  <App/>,
+  document.getElementById('root')
+);
